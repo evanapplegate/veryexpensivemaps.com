@@ -13,7 +13,7 @@
   --link: #6e5950;
   --link-hover: #8c7a73;
   --underline: #d1ccc1;
-  --radius: 5px;
+  --radius: 2px; /* every corner: pictures, buttons, cards, form fields (as on physical.evanapplegate.com) */
 }
 @media (max-width: 767px) {
   :root {
@@ -344,7 +344,7 @@ a:hover {
   display: none;
   margin-top: 10px;
   padding: 10px 15px;
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: #fff;
   text-align: center;
 }
